@@ -1,0 +1,19 @@
+{
+  "name": "webpack-cli-repro-babel",
+  "version": "1.0.0",
+  "description": "Minimal Webpack CLI 5 bug reproduction",
+  "main": "index.js",
+  "scripts": {
+    "bootstrap": "npm install",
+    "build": "webpack"
+  },
+  "author": "Yves M.",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.20.7",
+    "@babel/preset-env": "^7.20.2",
+    "@babel/register": "^7.18.9",
+    "webpack": "^5.75.0",
+    "webpack-cli": "^5.0.1"
+  }
+}
